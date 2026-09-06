@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { BaseButton, BasePage, Textarea, Toast, UploadButton } from '@/base'
-import { addDict } from '@/core/apis'
 import { getWordList } from '@/core/apis/words.ts'
 import { AppEnv, ENV, LIB_JS_URL } from '@/core/config/env.ts'
 import { useBaseStore } from '@/core/stores/base.ts'
