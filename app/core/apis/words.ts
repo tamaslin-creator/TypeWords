@@ -4,3 +4,5 @@ import type { Word } from '../types'
 export function queryWord(params?: { word: string }) {
   return http<Word>('public.word/query', null, params, 'get')
 }
+export function getWordList(params?, data?) {
+  return http('public.word/getWordList', data, params, 'post')
