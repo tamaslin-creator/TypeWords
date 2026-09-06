@@ -17,7 +17,7 @@ const map = {
   DEV: {
     API: 'http://localhost/',
     RESOURCE_URL: '',
-    LIBS_URL: '/libs/',
+    LIBS_URL: '/TypeWords/libs/',
   },
 }
 
